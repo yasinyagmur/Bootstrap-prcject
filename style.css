@@ -8,3 +8,5 @@
     transition: 1s !important;
     color: red !important;
 } */
+
+carousel-inner > .carousel-item > img { min-width:100%; min-height:100vh; }
