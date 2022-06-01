@@ -64,10 +64,45 @@
   /*! ------------------- 4- STUDENTS SECTION ------------------------ */
   
   /*! ------------------- 5- COURSES SECTION ------------------------ */
-  
+  section#courses .nav-link{
+    color: white;
+    
+  }
+  section#courses .nav-link.active{
+    background-color: red;
+
+  }
   /*! ------------------- 6- CONTACT SECTION ------------------------ */
-  
-  /** ------------------- UP-BUTTON --------------------- */
-  
+  section#contact i{
+    color:red;
+    font-size: 1.5rem;
+  }
+  /*! ------------------- UP-BUTTON --------------------- */
+  .up-btn{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.3rem;
+    color: white;
+    background-color: #dc3545;
+  }
+  .up-btn:hover{
+    color: gold;
+  }
   /*! -------------------- 7- FOOTER ------------------------ */
+  footer i {
+    font-size: 2rem;
+    color: white;
+    margin-right: 1rem;
+    transition: color 1s;
+  }
+  
+  footer i:hover {
+    color: red;
+  }
   
